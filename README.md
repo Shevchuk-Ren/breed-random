@@ -17,6 +17,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `add to project file .env`
+Look example - .env.example
+REACT_APP_SERVER_API_DEV = https://dog.ceo/api/
+REACT_APP_SERVER_API_PROD  = https://dog.ceo/api/
 
 ### `npm start`
 
