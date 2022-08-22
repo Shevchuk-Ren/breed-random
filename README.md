@@ -1,3 +1,15 @@
+## Project
+Testing API Take Random Dogs [https://dog.ceo/dog-api/documentation/breed] (https://dog.ceo/dog-api/documentation/breed)
+
+## Stack
+Reactjs
+JavaScript
+TypeScript
+axios
+Material UI
+React-toastify
+Styled-components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +56,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+

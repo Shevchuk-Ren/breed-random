@@ -12,7 +12,7 @@ export const HomePage = () => {
  
     useEffect(  () => {
       getRandomDog().then((response) => {
-        const replacePartBefore = response.data.message.replace(/^(([^\/]*\/){4,4}).*/,'$1').length;
+          const replacePartBefore = response.data.message.replace(/^(([^\/]*\/){4,4}).*/,'$1').length;
           const replacePartAfter = response.data.message.replace(/^(([^\/]*\/){5,5}).*/,'$1').length;
           const resultUrl = response.data.message.substring(replacePartBefore, replacePartAfter)
          setBreed(resultUrl);
