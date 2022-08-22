@@ -1,5 +1,5 @@
 ## Project
-Testing API Take Random Dogs [https://dog.ceo/dog-api/documentation/breed] (https://dog.ceo/dog-api/documentation/breed)
+Testing API Take Random Dogs [https://dog.ceo/dog-api/documentation/breed](https://dog.ceo/dog-api/documentation/breed)
 
 ## Stack
 Reactjs
