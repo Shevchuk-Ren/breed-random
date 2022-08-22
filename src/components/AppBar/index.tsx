@@ -1,5 +1,5 @@
-import { AppBar as MuiAppBar, Box,  ThemeProvider, Toolbar, Typography } from '@mui/material';
 import * as React from 'react';
+import { AppBar as MuiAppBar, Box,  ThemeProvider, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { Search, SearchIconWrapper, StyledInputBase } from './styles';

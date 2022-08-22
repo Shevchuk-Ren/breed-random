@@ -44,6 +44,16 @@
       "not dead",
       "not op_mini all"
     ],
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+        "prettier --write"
+      ]
+    },
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -51,6 +61,8 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
   }
 }
